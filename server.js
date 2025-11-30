@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/chile', (req, res) => {
-  res.send('Un slaudo a todos los chilenos que aportan a esta teletón.');
+  res.send('Un salaudo a todos los chilenos que aportan a esta teletón.');
 });
 
 app.listen(port, () => {
